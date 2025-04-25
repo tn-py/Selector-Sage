@@ -1,0 +1,128 @@
+/* Custom styles for AI Web Scraper Assistant */
+
+/* Body and general styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+/* Card customization */
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Form elements */
+.form-control:focus, .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Code block */
+pre {
+    margin: 0;
+    border-radius: 0 0 0.5rem 0.5rem;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+code[class*="language-"] {
+    font-size: 0.875rem;
+    padding: 1rem;
+}
+
+/* Spinner customization */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Table styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Sample data table styles */
+#sample-data-table td {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Validation section styles */
+#validation-details {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.field-validation {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field-validation h6 {
+    margin-bottom: 0.5rem;
+}
+
+.field-validation p {
+    margin-bottom: 0;
+}
+
+/* Status badge adjustments */
+.badge {
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+}
+
+.badge.rounded-pill {
+    font-size: 0.75rem;
+}
+
+/* Modal customization */
+.modal-content {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.modal-header, .modal-footer {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Button hover effects */
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+    .card-header button {
+        margin-top: 0.5rem;
+    }
+}

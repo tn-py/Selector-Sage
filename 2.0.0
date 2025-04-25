@@ -1,0 +1,232 @@
+Collecting beautifulsoup4
+  Obtaining dependency information for beautifulsoup4 from https://files.pythonhosted.org/packages/50/cd/30110dc0ffcf3b131156077b90e9f60ed75711223f306da4db08eff8403b/beautifulsoup4-4.13.4-py3-none-any.whl.metadata
+  Downloading beautifulsoup4-4.13.4-py3-none-any.whl.metadata (3.8 kB)
+Collecting email-validator
+  Obtaining dependency information for email-validator from https://files.pythonhosted.org/packages/d7/ee/bf0adb559ad3c786f12bcbc9296b3f5675f529199bef03e2df281fa1fadb/email_validator-2.2.0-py3-none-any.whl.metadata
+  Downloading email_validator-2.2.0-py3-none-any.whl.metadata (25 kB)
+Collecting flask
+  Obtaining dependency information for flask from https://files.pythonhosted.org/packages/af/47/93213ee66ef8fae3b93b3e29206f6b251e65c97bd91d8e1c5596ef15af0a/flask-3.1.0-py3-none-any.whl.metadata
+  Downloading flask-3.1.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting flask-sqlalchemy
+  Obtaining dependency information for flask-sqlalchemy from https://files.pythonhosted.org/packages/1d/6a/89963a5c6ecf166e8be29e0d1bf6806051ee8fe6c82e232842e3aeac9204/flask_sqlalchemy-3.1.1-py3-none-any.whl.metadata
+  Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl.metadata (3.4 kB)
+Collecting gunicorn
+  Obtaining dependency information for gunicorn from https://files.pythonhosted.org/packages/cb/7d/6dac2a6e1eba33ee43f318edbed4ff29151a49b5d37f080aad1e6469bca4/gunicorn-23.0.0-py3-none-any.whl.metadata
+  Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting openai
+  Obtaining dependency information for openai from https://files.pythonhosted.org/packages/59/aa/84e02ab500ca871eb8f62784426963a1c7c17a72fea3c7f268af4bbaafa5/openai-1.76.0-py3-none-any.whl.metadata
+  Downloading openai-1.76.0-py3-none-any.whl.metadata (25 kB)
+Collecting psycopg2-binary
+  Obtaining dependency information for psycopg2-binary from https://files.pythonhosted.org/packages/92/29/06261ea000e2dc1e22907dbbc483a1093665509ea586b29b8986a0e56733/psycopg2_binary-2.9.10-cp312-cp312-win_amd64.whl.metadata
+  Downloading psycopg2_binary-2.9.10-cp312-cp312-win_amd64.whl.metadata (5.0 kB)
+Collecting requests
+  Obtaining dependency information for requests from https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl.metadata
+  Using cached requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting trafilatura
+  Obtaining dependency information for trafilatura from https://files.pythonhosted.org/packages/8a/b6/097367f180b6383a3581ca1b86fcae284e52075fa941d1232df35293363c/trafilatura-2.0.0-py3-none-any.whl.metadata
+  Downloading trafilatura-2.0.0-py3-none-any.whl.metadata (12 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4)
+  Obtaining dependency information for soupsieve>1.2 from https://files.pythonhosted.org/packages/e7/9c/0e6afc12c269578be5c0c1c9f4b49a8d32770a080260c333ac04cc1c832d/soupsieve-2.7-py3-none-any.whl.metadata
+  Downloading soupsieve-2.7-py3-none-any.whl.metadata (4.6 kB)
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4)
+  Obtaining dependency information for typing-extensions>=4.0.0 from https://files.pythonhosted.org/packages/8b/54/b1ae86c0973cc6f0210b53d508ca3641fb6d0c56823f288d108bc7ab3cc8/typing_extensions-4.13.2-py3-none-any.whl.metadata
+  Downloading typing_extensions-4.13.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting dnspython>=2.0.0 (from email-validator)
+  Obtaining dependency information for dnspython>=2.0.0 from https://files.pythonhosted.org/packages/68/1b/e0a87d256e40e8c888847551b20a017a6b98139178505dc7ffb96f04e954/dnspython-2.7.0-py3-none-any.whl.metadata
+  Downloading dnspython-2.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting idna>=2.0.0 (from email-validator)
+  Obtaining dependency information for idna>=2.0.0 from https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl.metadata
+  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting Werkzeug>=3.1 (from flask)
+  Obtaining dependency information for Werkzeug>=3.1 from https://files.pythonhosted.org/packages/52/24/ab44c871b0f07f491e5d2ad12c9bd7358e527510618cb1b803a88e986db1/werkzeug-3.1.3-py3-none-any.whl.metadata
+  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting Jinja2>=3.1.2 (from flask)
+  Obtaining dependency information for Jinja2>=3.1.2 from https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl.metadata
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting itsdangerous>=2.2 (from flask)
+  Obtaining dependency information for itsdangerous>=2.2 from https://files.pythonhosted.org/packages/04/96/92447566d16df59b2a776c0fb82dbc4d9e07cd95062562af01e408583fc4/itsdangerous-2.2.0-py3-none-any.whl.metadata
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting click>=8.1.3 (from flask)
+  Obtaining dependency information for click>=8.1.3 from https://files.pythonhosted.org/packages/7e/d4/7ebdbd03970677812aac39c869717059dbb71a4cfc033ca6e5221787892c/click-8.1.8-py3-none-any.whl.metadata
+  Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting blinker>=1.9 (from flask)
+  Obtaining dependency information for blinker>=1.9 from https://files.pythonhosted.org/packages/10/cb/f2ad4230dc2eb1a74edf38f1a38b9b52277f75bef262d8908e60d957e13c/blinker-1.9.0-py3-none-any.whl.metadata
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting sqlalchemy>=2.0.16 (from flask-sqlalchemy)
+  Obtaining dependency information for sqlalchemy>=2.0.16 from https://files.pythonhosted.org/packages/2a/9f/14c511cda174aa1ad9b0e42b64ff5a71db35d08b0d80dc044dae958921e5/sqlalchemy-2.0.40-cp312-cp312-win_amd64.whl.metadata
+  Downloading sqlalchemy-2.0.40-cp312-cp312-win_amd64.whl.metadata (9.9 kB)
+Collecting packaging (from gunicorn)
+  Obtaining dependency information for packaging from https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl.metadata
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting anyio<5,>=3.5.0 (from openai)
+  Obtaining dependency information for anyio<5,>=3.5.0 from https://files.pythonhosted.org/packages/a1/ee/48ca1a7c89ffec8b6a0c5d02b89c305671d5ffd8d3c94acf8b8c408575bb/anyio-4.9.0-py3-none-any.whl.metadata
+  Downloading anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting distro<2,>=1.7.0 (from openai)
+  Obtaining dependency information for distro<2,>=1.7.0 from https://files.pythonhosted.org/packages/12/b3/231ffd4ab1fc9d679809f356cebee130ac7daa00d6d6f3206dd4fd137e9e/distro-1.9.0-py3-none-any.whl.metadata
+  Using cached distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting httpx<1,>=0.23.0 (from openai)
+  Obtaining dependency information for httpx<1,>=0.23.0 from https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl.metadata
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting jiter<1,>=0.4.0 (from openai)
+  Obtaining dependency information for jiter<1,>=0.4.0 from https://files.pythonhosted.org/packages/cd/9d/742b289016d155f49028fe1bfbeb935c9bf0ffeefdf77daf4a63a42bb72b/jiter-0.9.0-cp312-cp312-win_amd64.whl.metadata
+  Using cached jiter-0.9.0-cp312-cp312-win_amd64.whl.metadata (5.3 kB)
+Collecting pydantic<3,>=1.9.0 (from openai)
+  Obtaining dependency information for pydantic<3,>=1.9.0 from https://files.pythonhosted.org/packages/b0/1d/407b29780a289868ed696d1616f4aad49d6388e5a77f567dcd2629dcd7b8/pydantic-2.11.3-py3-none-any.whl.metadata
+  Downloading pydantic-2.11.3-py3-none-any.whl.metadata (65 kB)
+     ---------------------------------------- 65.2/65.2 kB 1.8 MB/s eta 0:00:00
+Collecting sniffio (from openai)
+  Obtaining dependency information for sniffio from https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl.metadata
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting tqdm>4 (from openai)
+  Obtaining dependency information for tqdm>4 from https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl.metadata
+  Using cached tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting charset-normalizer<4,>=2 (from requests)
+  Obtaining dependency information for charset-normalizer<4,>=2 from https://files.pythonhosted.org/packages/21/5b/1b390b03b1d16c7e382b561c5329f83cc06623916aab983e8ab9239c7d5c/charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl.metadata
+  Using cached charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl.metadata (36 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Obtaining dependency information for urllib3<3,>=1.21.1 from https://files.pythonhosted.org/packages/6b/11/cc635220681e93a0183390e26485430ca2c7b5f9d33b15c74c2861cb8091/urllib3-2.4.0-py3-none-any.whl.metadata
+  Downloading urllib3-2.4.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Obtaining dependency information for certifi>=2017.4.17 from https://files.pythonhosted.org/packages/38/fc/bce832fd4fd99766c04d1ee0eead6b0ec6486fb100ae5e74c1d91292b982/certifi-2025.1.31-py3-none-any.whl.metadata
+  Using cached certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+Collecting courlan>=1.3.2 (from trafilatura)
+  Obtaining dependency information for courlan>=1.3.2 from https://files.pythonhosted.org/packages/8e/ca/6a667ccbe649856dcd3458bab80b016681b274399d6211187c6ab969fc50/courlan-1.3.2-py3-none-any.whl.metadata
+  Downloading courlan-1.3.2-py3-none-any.whl.metadata (17 kB)
+Collecting htmldate>=1.9.2 (from trafilatura)
+  Obtaining dependency information for htmldate>=1.9.2 from https://files.pythonhosted.org/packages/05/49/8872130016209c20436ce0c1067de1cf630755d0443d068a5bc17fa95015/htmldate-1.9.3-py3-none-any.whl.metadata
+  Downloading htmldate-1.9.3-py3-none-any.whl.metadata (10 kB)
+Collecting justext>=3.0.1 (from trafilatura)
+  Obtaining dependency information for justext>=3.0.1 from https://files.pythonhosted.org/packages/f2/ac/52f4e86d1924a7fc05af3aeb34488570eccc39b4af90530dd6acecdf16b5/justext-3.0.2-py2.py3-none-any.whl.metadata
+  Downloading justext-3.0.2-py2.py3-none-any.whl.metadata (7.3 kB)
+Collecting lxml>=5.3.0 (from trafilatura)
+  Obtaining dependency information for lxml>=5.3.0 from https://files.pythonhosted.org/packages/91/1e/05ddcb57ad2f3069101611bd5f5084157d90861a2ef460bf42f45cced944/lxml-5.4.0-cp312-cp312-win_amd64.whl.metadata
+  Downloading lxml-5.4.0-cp312-cp312-win_amd64.whl.metadata (3.6 kB)
+Collecting colorama (from click>=8.1.3->flask)
+  Obtaining dependency information for colorama from https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl.metadata
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting babel>=2.16.0 (from courlan>=1.3.2->trafilatura)
+  Obtaining dependency information for babel>=2.16.0 from https://files.pythonhosted.org/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl.metadata
+  Downloading babel-2.17.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting tld>=0.13 (from courlan>=1.3.2->trafilatura)
+  Obtaining dependency information for tld>=0.13 from https://files.pythonhosted.org/packages/ea/75/779ddeaf4d847ba0021ad99d1b615a853f2a5762bd5d118273c7f7673c38/tld-0.13-py2.py3-none-any.whl.metadata
+  Downloading tld-0.13-py2.py3-none-any.whl.metadata (9.4 kB)
+Collecting dateparser>=1.1.2 (from htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for dateparser>=1.1.2 from https://files.pythonhosted.org/packages/cf/0a/981c438c4cd84147c781e4e96c1d72df03775deb1bc76c5a6ee8afa89c62/dateparser-1.2.1-py3-none-any.whl.metadata
+  Downloading dateparser-1.2.1-py3-none-any.whl.metadata (29 kB)
+Collecting python-dateutil>=2.9.0.post0 (from htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for python-dateutil>=2.9.0.post0 from https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->openai)
+  Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl.metadata
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->openai)
+  Obtaining dependency information for h11>=0.16 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting MarkupSafe>=2.0 (from Jinja2>=3.1.2->flask)
+  Obtaining dependency information for MarkupSafe>=2.0 from https://files.pythonhosted.org/packages/c1/80/a61f99dc3a936413c3ee4e1eecac96c0da5ed07ad56fd975f1a9da5bc630/MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl.metadata
+  Downloading MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl.metadata (4.1 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3,>=1.9.0->openai)
+  Obtaining dependency information for annotated-types>=0.6.0 from https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl.metadata
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.1 (from pydantic<3,>=1.9.0->openai)
+  Obtaining dependency information for pydantic-core==2.33.1 from https://files.pythonhosted.org/packages/02/28/58442ad1c22b5b6742b992ba9518420235adced665513868f99a1c2638a5/pydantic_core-2.33.1-cp312-cp312-win_amd64.whl.metadata
+  Downloading pydantic_core-2.33.1-cp312-cp312-win_amd64.whl.metadata (6.9 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic<3,>=1.9.0->openai)
+  Obtaining dependency information for typing-inspection>=0.4.0 from https://files.pythonhosted.org/packages/31/08/aa4fdfb71f7de5176385bd9e90852eaf6b5d622735020ad600f2bab54385/typing_inspection-0.4.0-py3-none-any.whl.metadata
+  Downloading typing_inspection-0.4.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting greenlet>=1 (from sqlalchemy>=2.0.16->flask-sqlalchemy)
+  Obtaining dependency information for greenlet>=1 from https://files.pythonhosted.org/packages/c0/ba/82a2c3b9868644ee6011da742156247070f30e952f4d33f33857458450f2/greenlet-3.2.1-cp312-cp312-win_amd64.whl.metadata
+  Downloading greenlet-3.2.1-cp312-cp312-win_amd64.whl.metadata (4.2 kB)
+Collecting pytz>=2024.2 (from dateparser>=1.1.2->htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for pytz>=2024.2 from https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl.metadata
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting regex!=2019.02.19,!=2021.8.27,>=2015.06.24 (from dateparser>=1.1.2->htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for regex!=2019.02.19,!=2021.8.27,>=2015.06.24 from https://files.pythonhosted.org/packages/38/ec/ad2d7de49a600cdb8dd78434a1aeffe28b9d6fc42eb36afab4a27ad23384/regex-2024.11.6-cp312-cp312-win_amd64.whl.metadata
+  Using cached regex-2024.11.6-cp312-cp312-win_amd64.whl.metadata (41 kB)
+Collecting tzlocal>=0.2 (from dateparser>=1.1.2->htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for tzlocal>=0.2 from https://files.pythonhosted.org/packages/c2/14/e2a54fabd4f08cd7af1c07030603c3356b74da07f7cc056e600436edfa17/tzlocal-5.3.1-py3-none-any.whl.metadata
+  Downloading tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting six>=1.5 (from python-dateutil>=2.9.0.post0->htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for six>=1.5 from https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl.metadata
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting tzdata (from tzlocal>=0.2->dateparser>=1.1.2->htmldate>=1.9.2->trafilatura)
+  Obtaining dependency information for tzdata from https://files.pythonhosted.org/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl.metadata
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading beautifulsoup4-4.13.4-py3-none-any.whl (187 kB)
+   ---------------------------------------- 187.3/187.3 kB 2.9 MB/s eta 0:00:00
+Downloading email_validator-2.2.0-py3-none-any.whl (33 kB)
+Downloading flask-3.1.0-py3-none-any.whl (102 kB)
+   ---------------------------------------- 103.0/103.0 kB 3.0 MB/s eta 0:00:00
+Downloading flask_sqlalchemy-3.1.1-py3-none-any.whl (25 kB)
+Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+   ---------------------------------------- 85.0/85.0 kB ? eta 0:00:00
+Downloading openai-1.76.0-py3-none-any.whl (661 kB)
+   ---------------------------------------- 661.2/661.2 kB 2.3 MB/s eta 0:00:00
+Downloading psycopg2_binary-2.9.10-cp312-cp312-win_amd64.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 4.9 MB/s eta 0:00:00
+Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Downloading trafilatura-2.0.0-py3-none-any.whl (132 kB)
+   ---------------------------------------- 132.6/132.6 kB 8.2 MB/s eta 0:00:00
+Downloading anyio-4.9.0-py3-none-any.whl (100 kB)
+   ---------------------------------------- 100.9/100.9 kB 2.9 MB/s eta 0:00:00
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Using cached certifi-2025.1.31-py3-none-any.whl (166 kB)
+Using cached charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl (102 kB)
+Using cached click-8.1.8-py3-none-any.whl (98 kB)
+Downloading courlan-1.3.2-py3-none-any.whl (33 kB)
+Using cached distro-1.9.0-py3-none-any.whl (20 kB)
+Downloading dnspython-2.7.0-py3-none-any.whl (313 kB)
+   ---------------------------------------- 313.6/313.6 kB 3.2 MB/s eta 0:00:00
+Downloading htmldate-1.9.3-py3-none-any.whl (31 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+   ---------------------------------------- 78.8/78.8 kB ? eta 0:00:00
+Using cached idna-3.10-py3-none-any.whl (70 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+   ---------------------------------------- 134.9/134.9 kB 7.8 MB/s eta 0:00:00
+Using cached jiter-0.9.0-cp312-cp312-win_amd64.whl (207 kB)
+Downloading justext-3.0.2-py2.py3-none-any.whl (837 kB)
+   ---------------------------------------- 837.9/837.9 kB 6.6 MB/s eta 0:00:00
+Downloading lxml-5.4.0-cp312-cp312-win_amd64.whl (3.8 MB)
+   ---------------------------------------- 3.8/3.8 MB 10.6 MB/s eta 0:00:00
+Downloading pydantic-2.11.3-py3-none-any.whl (443 kB)
+   ---------------------------------------- 443.6/443.6 kB 9.2 MB/s eta 0:00:00
+Downloading pydantic_core-2.33.1-cp312-cp312-win_amd64.whl (2.0 MB)
+   ---------------------------------------- 2.0/2.0 MB 15.6 MB/s eta 0:00:00
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading soupsieve-2.7-py3-none-any.whl (36 kB)
+Downloading sqlalchemy-2.0.40-cp312-cp312-win_amd64.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 19.3 MB/s eta 0:00:00
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+   ---------------------------------------- 45.8/45.8 kB ? eta 0:00:00
+Downloading urllib3-2.4.0-py3-none-any.whl (128 kB)
+   ---------------------------------------- 128.7/128.7 kB ? eta 0:00:00
+Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+   ---------------------------------------- 224.5/224.5 kB ? eta 0:00:00
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+   ---------------------------------------- 66.5/66.5 kB ? eta 0:00:00
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading babel-2.17.0-py3-none-any.whl (10.2 MB)
+   ---------------------------------------- 10.2/10.2 MB 23.2 MB/s eta 0:00:00
+Downloading dateparser-1.2.1-py3-none-any.whl (295 kB)
+   --------------------------------------- 295.7/295.7 kB 19.0 MB/s eta 0:00:00
+Downloading greenlet-3.2.1-cp312-cp312-win_amd64.whl (296 kB)
+   ---------------------------------------- 296.2/296.2 kB ? eta 0:00:00
+Downloading MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl (15 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading tld-0.13-py2.py3-none-any.whl (263 kB)
+   --------------------------------------- 263.8/263.8 kB 16.9 MB/s eta 0:00:00
+Downloading typing_inspection-0.4.0-py3-none-any.whl (14 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+   --------------------------------------- 509.2/509.2 kB 16.1 MB/s eta 0:00:00
+Using cached regex-2024.11.6-cp312-cp312-win_amd64.whl (273 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzlocal-5.3.1-py3-none-any.whl (18 kB)
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+   --------------------------------------- 347.8/347.8 kB 10.9 MB/s eta 0:00:00
+Installing collected packages: pytz, urllib3, tzdata, typing-extensions, tld, soupsieve, sniffio, six, regex, psycopg2-binary, packaging, MarkupSafe, lxml, jiter, itsdangerous, idna, h11, greenlet, dnspython, distro, colorama, charset-normalizer, certifi, blinker, babel, annotated-types, Werkzeug, tzlocal, typing-inspection, tqdm, sqlalchemy, requests, python-dateutil, pydantic-core, Jinja2, httpcore, gunicorn, email-validator, courlan, click, beautifulsoup4, anyio, pydantic, justext, httpx, flask, dateparser, openai, htmldate, flask-sqlalchemy, trafilatura
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.2 Werkzeug-3.1.3 annotated-types-0.7.0 anyio-4.9.0 babel-2.17.0 beautifulsoup4-4.13.4 blinker-1.9.0 certifi-2025.1.31 charset-normalizer-3.4.1 click-8.1.8 colorama-0.4.6 courlan-1.3.2 dateparser-1.2.1 distro-1.9.0 dnspython-2.7.0 email-validator-2.2.0 flask-3.1.0 flask-sqlalchemy-3.1.1 greenlet-3.2.1 gunicorn-23.0.0 h11-0.16.0 htmldate-1.9.3 httpcore-1.0.9 httpx-0.28.1 idna-3.10 itsdangerous-2.2.0 jiter-0.9.0 justext-3.0.2 lxml-5.4.0 openai-1.76.0 packaging-25.0 psycopg2-binary-2.9.10 pydantic-2.11.3 pydantic-core-2.33.1 python-dateutil-2.9.0.post0 pytz-2025.2 regex-2024.11.6 requests-2.32.3 six-1.17.0 sniffio-1.3.1 soupsieve-2.7 sqlalchemy-2.0.40 tld-0.13 tqdm-4.67.1 trafilatura-2.0.0 typing-extensions-4.13.2 typing-inspection-0.4.0 tzdata-2025.2 tzlocal-5.3.1 urllib3-2.4.0
